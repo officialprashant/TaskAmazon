@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17489" started-at="2021-05-06T11:57:08Z" finished-at="2021-05-06T11:57:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17489" started-at="2021-05-06T11:57:08Z" finished-at="2021-05-06T11:57:25Z">
+      <class name="com.amazon.AmazonTask">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.amazon.AmazonTask@26653222]" name="initialization" is-config="true" duration-ms="11372" started-at="2021-05-06T17:27:08Z" finished-at="2021-05-06T17:27:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.amazon.AmazonTask@26653222]" name="login" duration-ms="2516" started-at="2021-05-06T17:27:20Z" data-provider="getLoginData" finished-at="2021-05-06T17:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test$@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getAdvertisement()[pri:2, instance:com.amazon.AmazonTask@26653222]" name="getAdvertisement" duration-ms="458" started-at="2021-05-06T17:27:22Z" finished-at="2021-05-06T17:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAdvertisement -->
+        <test-method status="PASS" signature="saveCarousel()[pri:3, instance:com.amazon.AmazonTask@26653222]" name="saveCarousel" duration-ms="2211" started-at="2021-05-06T17:27:23Z" finished-at="2021-05-06T17:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveCarousel -->
+      </class> <!-- com.amazon.AmazonTask -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
